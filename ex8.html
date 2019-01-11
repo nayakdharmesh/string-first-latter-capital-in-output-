@@ -1,0 +1,14 @@
+<html>
+    <script>
+            function check()
+            {
+                var str=document.getElementById('s').value;
+                var str=str.charAt(0).toUpperCase()+ str.slice(1);
+                alert(str);
+            }
+    </script>
+    <body>
+        enter the input:-<input type="txt" id="s" onchange="check()">
+        <p id="disp"><span></span></p>
+    </body>
+</html>
